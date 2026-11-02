@@ -1,0 +1,76 @@
+COMO PUBLICAR UM AVISO OU UM ARTIGO NO SITE
+==========================================
+
+AVISOS DE FERIADO SÃO AUTOMÁTICOS
+---------------------------------
+Você NÃO precisa fazer nada para os feriados. O site cria sozinho, todo ano,
+o aviso "escritório fechado" de cada feriado que cai em dia de semana:
+Ano-Novo, Carnaval (segunda e terça), Sexta-feira Santa, Tiradentes,
+Dia do Trabalho, Corpus Christi, 9 de Julho (SP), Independência,
+Nossa Senhora Aparecida, Finados, Proclamação da República,
+Consciência Negra e Natal.
+O aviso aparece na faixa do topo 10 dias antes e some depois do feriado.
+
+Use as instruções abaixo só para OUTROS avisos (ex.: recesso de fim de ano,
+mudança de horário) ou para escrever artigos.
+
+Todas as publicações ficam num único arquivo: blog/posts.json
+Para publicar, edite esse arquivo (pode ser no Bloco de Notas) e envie de novo
+para a hospedagem, na mesma pasta "blog".
+
+1. Abra o arquivo blog/posts.json no Bloco de Notas.
+
+2. Logo depois do primeiro colchete  [  cole o modelo abaixo
+   e troque os textos entre aspas:
+
+  {
+    "id": "feriado-natal-2026",
+    "tipo": "aviso",
+    "titulo": "Recesso de fim de ano",
+    "data": "2026-12-10",
+    "mostrarAte": "2027-01-04",
+    "resumo": "Uma frase curta que aparece na lista.",
+    "texto": [
+      "Primeiro parágrafo.",
+      "Segundo parágrafo."
+    ]
+  },
+
+3. Salve o arquivo e envie para a hospedagem, substituindo o antigo.
+
+
+O QUE CADA CAMPO SIGNIFICA
+--------------------------
+id          Um nome único, sem espaços nem acentos, com hífens.
+            Ex.: feriado-carnaval-2027
+tipo        "aviso" (feriados, horário, recados)  ou  "artigo" (blog).
+titulo      O título da publicação.
+data        A data da publicação, no formato ano-mês-dia. Ex.: 2026-12-10
+mostrarAte  Só para avisos. Até que dia o aviso aparece na faixa amarela
+            do topo do site. Depois dessa data ele sai da faixa sozinho
+            e fica marcado como "Aviso encerrado" no blog.
+resumo      Uma ou duas frases que aparecem na lista de publicações.
+texto       Os parágrafos, cada um entre aspas e separados por vírgula.
+
+
+DICAS PARA O TEXTO
+------------------
+"## Título da seção"          vira um subtítulo
+"- item da lista"             vira um item de lista com marcador
+"**palavra**"                 deixa a palavra em negrito
+"[texto do link](https://...)"  vira um link para outro site
+"[calculadora](#inss-e-ir)"   vira um link para a calculadora de INSS e IR
+                              (também: #rescisao, #horas-extras, #contato)
+
+
+CUIDADOS PARA NÃO QUEBRAR O ARQUIVO
+-----------------------------------
+- Toda publicação fica entre chaves { } e é separada da próxima por vírgula.
+- A ÚLTIMA publicação da lista NÃO leva vírgula depois do }.
+- Não use aspas " dentro dos textos. Se precisar, use aspas simples ' '.
+- Se o site mostrar "Não foi possível carregar as publicações", é quase
+  sempre uma vírgula ou aspas faltando. Confira o que foi alterado.
+- Para conferir o arquivo antes de enviar, cole o conteúdo em
+  https://jsonlint.com e clique em "Validate JSON".
+
+Para apagar uma publicação, remova o bloco { ... } inteiro dela.

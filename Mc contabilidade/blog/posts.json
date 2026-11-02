@@ -1,0 +1,59 @@
+[
+  {
+    "id": "decimo-terceiro-2026",
+    "tipo": "artigo",
+    "titulo": "13º salário em 2026: prazos das duas parcelas",
+    "data": "2026-10-27",
+    "resumo": "A primeira parcela vence em 30 de novembro. A segunda deve ser paga até sexta, 18 de dezembro, porque o dia 20 cai num domingo.",
+    "texto": [
+      "O 13º salário é pago em duas parcelas, e as datas são definidas em lei. Veja os prazos de 2026 e se programe.",
+      "## Primeira parcela: até segunda, 30 de novembro",
+      "Corresponde a metade do salário do mês anterior, sem descontos de INSS e Imposto de Renda. Também pode ter sido paga junto com as férias, se o funcionário pediu.",
+      "## Segunda parcela: até sexta, 18 de dezembro",
+      "O prazo legal é 20 de dezembro, mas em 2026 essa data cai num domingo. Por isso, o pagamento deve ser antecipado para o último dia útil antes: sexta-feira, 18 de dezembro.",
+      "Na segunda parcela são descontados o INSS e o Imposto de Renda sobre o valor total do 13º.",
+      "## Quem tem direito",
+      "- Empregados com carteira assinada, inclusive domésticos",
+      "- Aposentados e pensionistas do INSS",
+      "- O valor é proporcional aos meses trabalhados no ano: cada mês com 15 dias ou mais de trabalho conta 1/12",
+      "Quer saber quanto vai pagar ou receber? Fale com a gente pelo WhatsApp."
+    ]
+  },
+  {
+    "id": "isencao-ir-5-mil",
+    "tipo": "artigo",
+    "titulo": "Isenção do Imposto de Renda até R$ 5 mil: o que mudou no seu salário",
+    "data": "2026-10-20",
+    "resumo": "Desde janeiro de 2026, quem ganha até R$ 5.000 por mês não tem mais Imposto de Renda descontado do salário.",
+    "texto": [
+      "A Lei 15.270/2025 criou uma redução no Imposto de Renda que vale desde janeiro de 2026. Na prática, quem ganha até R$ 5.000 por mês ficou isento.",
+      "## Como funciona",
+      "- Até R$ 5.000 por mês: o imposto é zerado",
+      "- De R$ 5.000,01 a R$ 7.350: o imposto diminui, e a redução vai ficando menor conforme o salário aumenta",
+      "- Acima de R$ 7.350: nada muda, vale a tabela de sempre",
+      "Exemplo: com salário de R$ 7.000 e sem dependentes, o IR mensal cai de R$ 801,35 para R$ 754,75.",
+      "## Para as empresas",
+      "A folha de pagamento já deve aplicar a redução todo mês. Se o seu holerite ainda mostra desconto de IR com salário de até R$ 5 mil, fale com o seu RH ou com a gente.",
+      "Faça a sua simulação na nossa [calculadora de INSS e IR](#inss-e-ir)."
+    ]
+  },
+  {
+    "id": "reforma-tributaria-2026",
+    "tipo": "artigo",
+    "titulo": "Reforma tributária: o que muda para a sua empresa em 2026",
+    "data": "2026-10-10",
+    "resumo": "2026 é o ano de teste da CBS e do IBS. As notas fiscais passam a mostrar os novos tributos, mas a cobrança efetiva começa depois.",
+    "texto": [
+      "A reforma tributária vai substituir PIS, Cofins, IPI, ICMS e ISS por dois novos tributos: a CBS (federal) e o IBS (estadual e municipal). A troca acontece aos poucos, até 2033.",
+      "## O que acontece em 2026",
+      "2026 é um ano de teste. As empresas do regime normal destacam na nota fiscal a CBS de 0,9% e o IBS de 0,1%, mas esse valor pode ser compensado com o PIS e a Cofins. Ou seja, a carga total não aumenta.",
+      "O objetivo do teste é ajustar os sistemas de emissão de notas e a apuração dos novos tributos.",
+      "## E quem é do Simples Nacional?",
+      "As empresas do Simples Nacional continuam recolhendo pelo DAS normalmente. Mas a reforma muda a forma como os clientes aproveitam créditos, e isso pode influenciar a escolha do regime nos próximos anos.",
+      "## O que fazer agora",
+      "- Confira se o seu sistema de notas fiscais já está atualizado para os novos campos",
+      "- Revise com o seu contador se o regime tributário atual continua sendo o melhor",
+      "Ficou com dúvida? Converse com a gente e faça um diagnóstico da sua empresa."
+    ]
+  }
+]
